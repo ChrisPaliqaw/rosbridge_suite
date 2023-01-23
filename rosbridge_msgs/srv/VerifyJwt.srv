@@ -1,0 +1,8 @@
+# JWT
+string token
+---
+# If the user has proper authentication
+bool authenticated
+string email
+string[] user_groups
+string error

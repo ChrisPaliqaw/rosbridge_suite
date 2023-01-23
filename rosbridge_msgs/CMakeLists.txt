@@ -11,6 +11,11 @@ add_message_files(
   ConnectedClients.msg
 )
 
+add_service_files(
+  FILES
+  VerifyJwt.srv
+)
+
 generate_messages(
   DEPENDENCIES
   std_msgs
